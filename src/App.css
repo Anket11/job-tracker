@@ -1,0 +1,38 @@
+.everything {
+  height: 100vh;
+}
+.boardworkspace {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding-left: 190px !important;
+  height: 100vh;
+}
+.board {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  background-color: rgb(251, 251, 253);
+  flex-direction: row;
+  column-gap: 0px;
+  overflow-x: scroll;
+}
+.listContainer .add-list-block{
+font-size: 15px;
+font-weight: 700;
+letter-spacing: 1px;
+text-transform: uppercase;
+padding-top: 25px;
+padding-bottom: 25px;
+
+width: 100%;
+border-radius: 4px;
+text-align: center;
+color: rgba(25,4,69,0.5);
+transition: all 0.5s ease;
+
+}
+.listContainer .add-list-block:hover {
+  background-color: #ece9f2;
+  }

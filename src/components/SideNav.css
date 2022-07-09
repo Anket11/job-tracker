@@ -1,0 +1,41 @@
+.sidenav {
+  width: 190px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  z-index: 3;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-direction: column;
+  background-color: rgb(251, 251, 253);
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: rgba(25, 4, 69, 0.1);
+  box-sizing: border-box;
+  height:100vh;
+}
+.sidenav-links {
+  text-align: left;
+  color: rgb(24, 0, 69);
+  font-family: lato;
+  letter-spacing: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+}
+.links {
+  cursor: pointer;
+  text-decoration: none;
+  color: #1e90ff;
+}
+

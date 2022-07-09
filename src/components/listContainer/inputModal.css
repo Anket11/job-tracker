@@ -1,0 +1,100 @@
+.modal-container {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    position: relative;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    box-shadow: rgba(25, 4, 69, 0.05) 0px 3px 7px -1px, rgba(25, 4, 69, 0.4) 0px 0px 1px;
+    background-color: white;
+    box-sizing: border-box;
+}
+.model-header {
+    height: 40px;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    display: flex;
+    flex-shrink: 0;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(25, 4, 69, 0.1);
+}
+.model-header h1 {
+    text-align: left;
+    color: rgb(24, 0, 69);
+    letter-spacing: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 23px;
+}
+.modal-input {
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 15px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    max-height: 500px;
+    overflow-x: visible;
+    overflow-y: visible;
+}
+.input-container {
+    display: flex;
+    flex-direction: column;
+}
+.label-container {
+    display: flex;
+    flex-direction: row;
+}
+.input-heading {
+    text-align: left;
+    color: rgb(24, 0, 69);
+
+    letter-spacing: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+}
+.required-text {
+    text-align: left;
+
+    font-weight: 400;
+    letter-spacing: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    color: rgba(25, 4, 69, 0.5);
+    font-size: 13px;
+    line-height: 18px;
+}
+.footer {
+    height: 50px;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    display: flex;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgba(25, 4, 69, 0.1);
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+}
